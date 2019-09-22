@@ -1,0 +1,7 @@
+student\domain\Name.class
+student\domain\Student.class
+student\StudentApplication.class
+student\domain\Gender.class
+orm\StudentRepository.class
+orm\StudentEntity.class
+controller\MainController.class

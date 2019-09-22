@@ -1,0 +1,14 @@
+<table class="table-bordered">
+  <tr>
+    <th>Roll Number</th>
+    <th>Name</th>
+    <th>Phone Number</th>
+    <th>Actions</th>
+  </tr>
+  <tr *ngFor="let stud of students" [class.selected] = "isSelected(stud)">
+    <td>{{stud.id}}</td>
+    <td>{{stud.name}}</td>
+    <td>{{stud.PhoneNo}}</td>
+    <td><button (click)="onSelect(stud)">view Profile</button></td>
+  </tr>
+</table>
